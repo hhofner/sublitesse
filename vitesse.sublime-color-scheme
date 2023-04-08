@@ -1,0 +1,131 @@
+{
+    "name": "Vitesse Dark Soft",
+    "globals":
+    {
+        "background": "#222",
+        "foreground": "#dbd7ca", 
+        "caret": "#dedcd590",
+        "block_caret": "#dedcd590",
+        "misspelling": "#cb7676",
+        "line_highlight": "#222",
+        "selection": "#eeeeee15",
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "#888888"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "hsla(50, 100%, 50%, 1)",
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "#7F00FF",
+            "font_style": "italic",
+        },
+        {
+            "name": "Tag",
+            "scope": "entity.name.tag",
+            "foreground": "#4d9375",
+        },
+        // Doctype
+        {
+            "name": "Doctype",
+            "scope": "meta.tag.sgml.doctype",
+            "foreground": "#888888",
+        },
+        {
+            "name": "Attribute Name",
+            "scope": "entity.other.attribute-name",
+            "foreground": "#b8a965",
+        },
+        {
+            "name": "Attribute Value",
+            "scope": "string.quoted.double.html",
+            "foreground": "#c98a7d",
+        },
+        {
+            "name": "Attribute Value",
+            "scope": "string.quoted.single.html",
+            "foreground": "#c98a7d",
+        },
+        {
+            "name": "Attribute Value",
+            "scope": "string.quoted",
+            "foreground": "#c98a7d",
+        },
+
+        // Angle Brackets
+        {
+            "name": "angle brackets",
+            "scope": "punctuation.definition.tag",
+            "foreground": "#888888",
+        },
+        // Curly Brackets
+        {
+            "name": "curly brackets",
+            "scope": "punctuation.definition.block",
+            "foreground": "#888888",
+        },
+        // Square Brackets
+        {
+            "name": "square brackets",
+            "scope": "punctuation.definition.array",
+            "foreground": "#888888",
+        },
+        // Round Brackets
+        {
+            "name": "round brackets",
+            "scope": "punctuation.definition.parameters",
+            "foreground": "#888888",
+        },
+        {
+            "name": "round brackets",
+            "scope": "meta.group",
+            "foreground": "#5eaab5",
+        },
+        {
+            "scope": "storage.type",
+            "foreground": "#c98a7d",
+        },
+        {
+            "scope": "variable.other",
+            "foreground": "#bd976a"
+        },
+        {
+            "scope": "keyword.control",
+            "foreground": "#d4976c"
+        },
+        {
+            "scope": "variable.function",
+            "foreground": "#80a665"
+        },
+        {
+            "scope": "meta.function.parameters",
+            "foreground": "#bd976a"
+        },
+        {
+            "scope": "meta.function.return-type",
+            "foreground": "#5da9a7"
+        },
+        // Function name
+        {
+            "scope": "entity.name.function",
+            "foreground": "#80a665"
+        },
+        // { Brackets }
+        {
+           "scope": "punctuation.section.block.begin",
+          "foreground": "#5eaab5",
+        },
+        {
+           "scope": "punctuation.section.block.end",
+           "foreground": "#5eaab5",
+        },
+    ]
+}
