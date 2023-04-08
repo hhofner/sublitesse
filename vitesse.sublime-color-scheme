@@ -121,11 +121,30 @@
         // { Brackets }
         {
            "scope": "punctuation.section.block.begin",
-          "foreground": "#5eaab5",
+          "foreground": "#888888",
+        },
+        // < >
+        {
+            "scope": "punctuation.definition.generic.begin",
+            "foreground": "#6394bf"
+        },
+        {
+            "scope": "punctuation.definition.generic.end",
+            "foreground": "#6394bf"
         },
         {
            "scope": "punctuation.section.block.end",
-           "foreground": "#5eaab5",
+           "foreground": "#888888",
+        },
+        // Enum
+        {
+            "scope": "entity.name.enum",
+            "foreground": "#5da9a7"
+        },
+        // Object 
+        {
+            "scope": "entity.name.class",
+            "foreground": "red"
         },
     ]
 }
