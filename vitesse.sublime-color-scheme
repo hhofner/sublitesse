@@ -9,18 +9,27 @@
         "misspelling": "#cb7676",
         "line_highlight": "#222",
         "selection": "#eeeeee15",
+        "line_diff_added": "#5DA994",
+        "line_diff_modified": "#CB7676",
+        "line_diff_deleted": "red",
     },
     "rules":
     [
+        {
+            "name": "General",
+            "scope": "support",
+            "foreground": "red",
+            "selection_foreground": "red"
+        },
         {
             "name": "Comment",
             "scope": "comment",
             "foreground": "#888888"
         },
         {
-            "name": "String",
+            "name": "General String",
             "scope": "string",
-            "foreground": "hsla(50, 100%, 50%, 1)",
+            "foreground": "#8eafd1",
         },
         {
             "name": "Number",
@@ -33,7 +42,6 @@
             "scope": "entity.name.tag",
             "foreground": "#4d9375",
         },
-        // Doctype
         {
             "name": "Doctype",
             "scope": "meta.tag.sgml.doctype",
@@ -195,12 +203,7 @@
             "foreground": "#B8A965"
         },
         {
-            "scope": "text.html.vue meta.interpolation.vue punctuation.definition.interpolation.begin.html",
-            "foreground": "#666666",
-            "background": "#222222"
-        },
-        {
-            "scope": "text.html.vue meta.interpolation.vue punctuation.definition.interpolation.end.html",
+            "scope": "text.html.vue meta.interpolation.vue punctuation.definition.interpolation.begin.html, text.html.vue meta.interpolation.vue punctuation.definition.interpolation.end.html",
             "foreground": "#666666",
             "background": "#222222"
         },
