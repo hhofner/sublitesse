@@ -146,5 +146,103 @@
             "scope": "entity.name.class",
             "foreground": "red"
         },
+        {
+            "scope": "text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html entity.other.attribute-name.html",
+            "foreground": "#80A665"
+        },
+        {
+            "scope": "text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.group.js variable.other.readwrite.js",
+            "foreground": "#B8A965"
+        },
+        {
+            "scope": "text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.function-call.method.js punctuation.accessor.js",
+            "foreground": "#BD976A"
+        },
+        {
+            "scope": "text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.function-call.method.js variable.function.js",
+            "foreground": "#80A665"
+        },
+        {
+            "scope": "text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.function-call.method.js meta.group.js meta.function.js meta.block.js meta.function-call.js support.class.builtin.js",
+            "foreground": "#6893BF"
+        },
+        {
+            "scope": "text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.function-call.method.js meta.group.js meta.function.js meta.block.js meta.function-call.js meta.group.js meta.property.object.js",
+            "foreground": "#B8A965"
+        },
+        {
+            "scope": "text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.function-call.method.js meta.group.js meta.function.js meta.block.js meta.function-call.js meta.group.js variable.other.readwrite.js",
+            "foreground": "#BD976A"
+        },
+        {
+            "scope" :"text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.sequence.js punctuation.section.sequence.begin.js",
+            "foreground": "#4D9375"
+        },
+        {
+            "scope" :"text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.sequence.js punctuation.section.sequence.end.js",
+            "foreground": "#4D9375"
+        },
+        {
+            "scope" :"text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.function-call.method.js support.class.js",
+            "foreground": "#B8A965"
+        },
+        {
+            "scope" :"text.html.vue meta.tag.inline.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.property.object.js",
+            "foreground": "#B8A965"
+        },
+        {
+            "scope" :"text.html.vue meta.interpolation.vue source.js.embedded.vue meta.property.object.js",
+            "foreground": "#B8A965"
+        },
+        {
+            "scope": "text.html.vue meta.interpolation.vue punctuation.definition.interpolation.begin.html",
+            "foreground": "#666666",
+            "background": "#222222"
+        },
+        {
+            "scope": "text.html.vue meta.interpolation.vue punctuation.definition.interpolation.end.html",
+            "foreground": "#666666",
+            "background": "#222222"
+        },
+        {
+            "scope": "text.html.vue source.ts.embedded.html meta.function-call.method.js meta.group.js meta.mapping.js meta.mapping.key.js",
+            "foreground": "#B8A965"
+        },
+        {
+            "scope": "text.html.vue source.ts.embedded.html meta.function-call.method.js meta.group.js meta.mapping.js constant.language.boolean.false.js, text.html.vue source.ts.embedded.html meta.function-call.method.js meta.group.js meta.mapping.js constant.language.boolean.true.js",
+            "foreground": "#4D9375"
+        },
+        {
+            "scope": "text.html.vue source.ts.embedded.html meta.generic.js support.class.js",
+            "foreground": "#5DA994"
+        },
+        {
+            "scope": "text.html.vue source.ts.embedded.html meta.generic.js storage.modifier.array.js",
+            "foreground": "#666666"
+        },
+        {
+            "scope": "text.html.vue source.ts.embedded.html meta.group.js meta.function.js meta.block.js meta.property.object.js",
+            "foreground": "#B8A965"
+        },
+        {
+            "scope": "text.html.vue source.ts.embedded.html meta.group.js meta.function.js meta.block.js keyword.operator.logical.js",
+            "foreground": "#CB7676"
+        },
+        {
+            "scope": "text.html.vue source.ts.embedded.html meta.binding.destructuring.mapping.js punctuation.section.mapping.end.js, text.html.vue source.ts.embedded.html meta.binding.destructuring.mapping.js punctuation.section.mapping.begin.js",
+            "foreground": "#666666"
+        },
+        {
+            "scope": "text.html.vue source.ts.embedded.html keyword.operator.assignment.js",
+            "foreground": "#CB7676"
+        },
+        {
+            "scope": "text.html.vue source.css.embedded.html meta.property-list.css meta.block.css meta.property-name.css support.type.property-name.css",
+            "foreground": "#B8A965"
+        },
+        {
+            "scope": "text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.sequence.js keyword.operator.comparison.js",
+            "foreground": "#CB7676"
+        }
     ]
 }
