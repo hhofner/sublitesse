@@ -18,8 +18,7 @@
         {
             "name": "General",
             "scope": "support",
-            "foreground": "red",
-            "selection_foreground": "red"
+            "foreground": "#2E808F",
         },
         {
             "name": "Comment",
@@ -246,6 +245,28 @@
         {
             "scope": "text.html.vue meta.tag.block.any.html meta.attribute-with-value.directive.html meta.string.html meta.interpolation.vue source.js.embedded.vue meta.sequence.js keyword.operator.comparison.js",
             "foreground": "#CB7676"
-        }
+        },
+
+        // JSON
+        {
+            "name": "Subkey",
+            "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "#4D9375"
+        },
+        {
+            "name": "Subvalue",
+            "scope": "source.json meta.mapping.value.json meta.sequence.json meta.mapping.value.json string.quoted.double.json",
+            "foreground": "#B8A965"
+        },
+        {
+            "name": "Key",
+            "scope": "source.json meta.mapping.key.json string.quoted.double.json",
+            "foreground": "#4D9375"
+        },
+        {
+            "name": "Subvalue",
+            "scope": "source.json meta.mapping.value.json meta.mapping.value.json string.quoted.double.json",
+            "foreground": "#80A665"
+        },
     ]
 }
