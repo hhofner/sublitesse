@@ -5,6 +5,8 @@ A color theme for Sublime Text 4.
 The Sublitesse color theme is a near direct port of [Ant Fu's "Vitesse" VS Code Theme](https://github.com/antfu/vscode-theme-vitesse), 
 with a few changes to fit my liking. 
 
+## Sublime Text 3 and 4
+
 <div align="center">
   <img src="screenshot.png" width="740" />
 </div>
