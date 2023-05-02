@@ -13,6 +13,14 @@ with a few changes to fit my liking.
 
 ## Installation
 
+### Package Control
+
+The easiest way to install is using [Package Control](https://packagecontrol.io/)
+
+1. Open Command Palette using menu item `Tools -> Command Palette...` (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> on Mac) (<kbd>ctrl</kbd><kbd>shift</kbd><kbd>P</kbd> on Windows)
+2. Choose `Package Control: Install Package`
+3. Find `Sublitesse` and hit <kbd>Enter</kbd>
+
 ### Manual
 
 You can also install the theme manually:
